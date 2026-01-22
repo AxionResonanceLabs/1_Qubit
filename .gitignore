@@ -1,0 +1,21 @@
+# Your real secret key runner (never upload)
+local_run.py
+
+# Any file that might contain secrets
+*.env
+*.key
+secret_*.txt
+private_*.py
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
